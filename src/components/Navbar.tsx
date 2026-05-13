@@ -3,7 +3,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 const NAV_ITEMS = [
   { label: "About", href: "#about" },
   { label: "Platforms", href: "#platforms" },
-  { label: "Deadlines", href: "#platforms" },
+  { label: "Deadlines", href: "#deadlines" },
 ];
 
 export default function Navbar() {

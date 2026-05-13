@@ -48,6 +48,7 @@ export default function Footer() {
             color="white"
             letterSpacing="0.02em"
             mb="24px"
+            id="#deadlines"
           >
             KEY DEADLINES
           </Text>
