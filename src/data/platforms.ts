@@ -68,11 +68,11 @@ export const PLATFORMS: Platform[] = [
     links: [
       {
         label: "Submit Events & Offers (Opens May 27)",
-        url: "https://admintools.nyctourism.com/world-cup-event?utm_campaign=WC26&utm_source=NYCTC&utm_medium=PM&cid=WC26_WorldCupEventSubmissions_PM_NYCTC_SITE_TOOLKIT",
+        url: "https://admintools.nyctourism.com/world-cup-event",
       },
       {
         label: 'F&B: "Winners Special" Free Cup Program',
-        url: "https://admintools.nyctourism.com/world-cup-cuisine?cid=WC26_FiveBoroughWinnerCupRegistration_PM_NYCTC_SITE_TOOLKIT&utm_source=NYCTC&utm_medium=PM&utm_campaign=WC26",
+        url: "https://admintools.nyctourism.com/world-cup-cuisine"
       },
     ],
     bonus: {

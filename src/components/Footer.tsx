@@ -131,13 +131,6 @@ export default function Footer() {
               All images sourced from Unsplash &mdash; free for commercial use,
               no attribution required.
             </Text>
-            <Text
-              fontSize="12px"
-              color="rgba(255,255,255,0.3)"
-              textAlign={{ base: "center", md: "right" }}
-            >
-              World Cup 2026 NYNJ &bull; Small Business Resource Guide
-            </Text>
           </Flex>
         </Box>
       </Box>
