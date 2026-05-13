@@ -1,9 +1,9 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 
 const NAV_ITEMS = [
-  { label: "About", href: "#about" },
-  { label: "Platforms", href: "#platforms" },
-  { label: "Deadlines", href: "#deadlines" },
+  { label: "About", href: "https://council.nyc.gov/2026-world-cup/#about" },
+  { label: "Platforms", href: "https://council.nyc.gov/2026-world-cup/#platforms" },
+  { label: "Deadlines", href: "https://council.nyc.gov/2026-world-cup/#deadlines" },
 ];
 
 export default function Navbar() {
