@@ -41,6 +41,7 @@ export default function Footer() {
           mx="auto"
           px={{ base: "20px", md: "40px" }}
           py={{ base: "40px", md: "60px" }}
+          id="deadlines"
         >
           <Text
             fontFamily="'Bebas Neue', sans-serif"
@@ -48,7 +49,6 @@ export default function Footer() {
             color="white"
             letterSpacing="0.02em"
             mb="24px"
-            id="#deadlines"
           >
             KEY DEADLINES
           </Text>
