@@ -3,10 +3,10 @@ import councilSeal from '../../nyc-seal-blue (1).png'
 import { LuSquareArrowOutUpLeft } from "react-icons/lu";
 
 const NAV_ITEMS = [
-  { label: "About", href: "https://council.nyc.gov/2026-world-cup/#about" },
-  { label: "Platforms", href: "https://council.nyc.gov/2026-world-cup/#platforms" },
-  { label: "Deadlines", href: "https://council.nyc.gov/2026-world-cup/#deadlines" },
-  {label:<Flex  textWrap={'nowrap'} alignItems={'center'}><LuSquareArrowOutUpLeft/><Text pl={'1'}>New York City Council</Text></Flex>, href:"https://council.nyc.gov/"}
+  { key: "about", label: "About", href: "https://council.nyc.gov/2026-world-cup/#about" },
+  { key: "platforms", label: "Platforms", href: "https://council.nyc.gov/2026-world-cup/#platforms" },
+  { key: "deadlines", label: "Deadlines", href: "https://council.nyc.gov/2026-world-cup/#deadlines" },
+  { key: "council", label:<Flex textWrap={'nowrap'} alignItems={'center'}><LuSquareArrowOutUpLeft/><Text pl={'1'}>New York City Council</Text></Flex>, href:"https://council.nyc.gov/"}
 ];
 
 export default function Navbar() {
@@ -49,7 +49,7 @@ export default function Navbar() {
         <Flex gap={{ base: "16px", md: "32px" }} align="center">
           {NAV_ITEMS.map((item) => (
             <a
-              key={item.label}
+              key={item.key}
               href={item.href}
               style={{
                 fontSize: "12px",
