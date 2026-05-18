@@ -5,6 +5,7 @@ const MotionBox = motion.create(Box);
 const MotionText = motion.create(Text);
 const MotionFlex = motion.create(Flex);
 
+// Free Unsplash images - soccer stadium by Vienna Reyes
 const HERO_BG =
   "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1920&q=80";
 
@@ -83,33 +84,33 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <Text
-            fontFamily="'Bebas Neue', sans-serif"
-            fontSize={{ base: "52px", md: "96px", lg: "120px" }}
-            lineHeight="0.9"
-            color="white"
-            letterSpacing="0.02em"
-          >
-            WORLD CUP
-          </Text>
-          <Flex align="baseline" gap={{ base: "12px", md: "20px" }}>
+          {/* Line 1: WORLD CUP 2026 */}
+          <Flex align="baseline" gap={{ base: "10px", md: "16px" }} flexWrap="wrap">
             <Text
               fontFamily="'Bebas Neue', sans-serif"
-              fontSize={{ base: "52px", md: "96px", lg: "120px" }}
-              lineHeight="0.9"
+              fontSize={{ base: "48px", md: "84px", lg: "110px" }}
+              lineHeight="0.95"
               color="white"
               letterSpacing="0.02em"
             >
-              2026
+              WORLD CUP 2026
             </Text>
-            <Box
-              h={{ base: "3px", md: "4px" }}
-              w={{ base: "40px", md: "80px" }}
-              bg="#D4AF37"
-              mt="auto"
-              mb={{ base: "10px", md: "20px" }}
-            />
+
+            {/* Gold accent line */}
+     
           </Flex>
+
+          {/* Line 2: SMALL BUSINESS OPPORTUNITIES */}
+          <Text
+            fontFamily="'Bebas Neue', sans-serif"
+            fontSize={{ base: "28px", md: "48px", lg: "62px" }}
+            lineHeight="1.05"
+            color="rgba(255,255,255,0.45)"
+            letterSpacing="0.06em"
+            mt={{ base: "4px", md: "6px" }}
+          >
+            SMALL BUSINESS OPPORTUNITIES
+          </Text>
         </MotionBox>
 
         {/* Subtitle */}
@@ -125,9 +126,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         >
-          Small Business Opportunities in NYC &mdash; Free promotional
-          platforms to help you capitalize on the world&apos;s biggest sporting
-          event.
+          Free promotional platforms to help you capitalize on the world&apos;s biggest sporting event.
         </MotionText>
 
         {/* Scroll indicator */}

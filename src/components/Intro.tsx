@@ -104,7 +104,7 @@ export default function Intro() {
           >
             FREE PROMOTIONAL
             <br />
-            PLATFORMS AVAILABLE
+            PLATFORMS FOR YOUR SMALL BUSINESS
           </Text>
 
           <Text
@@ -113,10 +113,7 @@ export default function Intro() {
             color="rgba(255,255,255,0.6)"
             maxW="520px"
           >
-            New York City&apos;s business owners are encouraged to take advantage
-            of the free promotional platforms now available to help small
-            businesses promote their World Cup activities&mdash;watch parties,
-            themed menus, discounts, promotions, giveaways, and more.
+            Promote your World Cup-inspired activations—watch parties, themed menus, discounts, promotions, giveaways, etc—by taking advantage of several free promotional platforms to help you spread the word to locals and visitors alike.
           </Text>
 
           <Flex mt="32px" gap="24px" wrap="wrap">
