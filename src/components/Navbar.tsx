@@ -1,9 +1,12 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Link, Text } from "@chakra-ui/react";
+import councilSeal from '../../nyc-seal-blue (1).png'
+import { LuSquareArrowOutUpLeft } from "react-icons/lu";
 
 const NAV_ITEMS = [
   { label: "About", href: "https://council.nyc.gov/2026-world-cup/#about" },
   { label: "Platforms", href: "https://council.nyc.gov/2026-world-cup/#platforms" },
   { label: "Deadlines", href: "https://council.nyc.gov/2026-world-cup/#deadlines" },
+  {label:<Flex  textWrap={'nowrap'} alignItems={'center'}><LuSquareArrowOutUpLeft/><Text pl={'1'}>New York City Council</Text></Flex>, href:"https://council.nyc.gov/"}
 ];
 
 export default function Navbar() {
@@ -28,13 +31,7 @@ export default function Navbar() {
         align="center"
       >
         <Flex align="center" gap="10px">
-          <Box
-            w="8px"
-            h="8px"
-            borderRadius="50%"
-            bg="#D4AF37"
-            boxShadow="0 0 8px #D4AF37"
-          />
+        <a href="https://council.nyc.gov/"><Image height="50px" backgroundColor={'white'} rounded="3xl" padding='1' src={councilSeal} alt="New York City Council Seal"  /></a>
           <Text
             fontFamily="'Bebas Neue', sans-serif"
             fontSize={{ base: "18px", md: "22px" }}
